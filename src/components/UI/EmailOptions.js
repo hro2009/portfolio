@@ -5,7 +5,7 @@ const EmailOptions = props => {
     const [successMessage, setSuccessMessage] = useState('');
 
     const clickHandler = e => {
-        copy('work@damiandemasi.com');
+        copy('hrair5@inbox.ru');
         setSuccessMessage('tooltip tooltip-open tooltip-accent');
         setTimeout(() => {
             setSuccessMessage('');
@@ -15,7 +15,7 @@ const EmailOptions = props => {
     return (
         <ul class="p-2 shadow dropdown-content bg-base-100 rounded-box ">
             <li>
-                <a class='btn btn-ghost btn-sm text-xs lg:btn-md' href='mailto:work@damiandemasi.com' target='_blank' rel="noreferrer">Open in email client</a>
+                <a class='btn btn-ghost btn-sm text-xs lg:btn-md' href='mailto:hrair5@inbox.ru' target='_blank' rel="noreferrer">Open in email client</a>
             </li>
             <li>
                 <button class='btn btn-ghost btn-sm text-xs lg:btn-md' onClick={clickHandler}>
